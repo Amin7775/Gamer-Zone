@@ -1,0 +1,12 @@
+/* Mobile Device */
+@media screen and (max-width:425px) {
+    .navbar{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav-menu-list{
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+}
