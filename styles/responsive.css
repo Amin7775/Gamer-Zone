@@ -1,67 +1,100 @@
 /* Mobile Device */
-@media screen and (max-width:425px) {
-    /* Nav - Start */
-    .navbar{
-        flex-direction: column;
-        padding: 0;
-        box-shadow: none;
-    }
-    .nav-title,.nav-menu{
-        width:80%;
-    }
-    .nav-title{
-        text-align: center;
-        justify-content: center;
-    }
-    .nav-menu{
-        margin-top: -5px;
-        margin-bottom: 15px;
-    }
-    .nav-menu-list{
-        flex-direction: column;
-    }
-    .nav-menu-follow{
-        margin: 0 auto;
-    }
-    /* Nav - End */
-    /* Banner - Start */
-    .banner-container{
-        flex-direction: column;
-    }
+@media screen and (max-width: 425px) {
+  /* Nav - Start */
+  .navbar {
+    flex-direction: column;
+    padding: 0;
+    box-shadow: none;
+  }
+  .nav-title,
+  .nav-menu {
+    width: 80%;
+  }
+  .nav-title {
+    text-align: center;
+    justify-content: center;
+  }
+  .nav-menu {
+    margin-top: -5px;
+    margin-bottom: 15px;
+  }
+  .nav-menu-list {
+    flex-direction: column;
+  }
+  .nav-menu-follow {
+    margin: 0 auto;
+  }
+  /* Nav - End */
+  /* Banner - Start */
+  .banner-container {
+    flex-direction: column;
+  }
 
-    .banner-content-container{
-        width: 100%;
-    }
+  .banner-content-container {
+    width: 100%;
+  }
 
-    .banner-image{
-        width: 100%;
-    }
-    
-    .banner-image img{
-        width: 100%;
-    }
-    
-    .banner-content{
-        margin-left: 0px;
-    }
-    
-    .banner-title-1{
-        text-align: center;
-    }
-    .banner-title-2{
-        text-align: center;
-    }
-    .banner-description{ 
-        margin-left: 10px;
-    }
-    /* Banner - End */
-    /* Online Games - Start */
-    .online-games-card-container {
-        border: 1px solid darkcyan;
-        /* display: flex; */
-        grid-template-columns: repeat(1, 1fr);
-        margin-top: 40px;
-      }
+  .banner-image {
+    width: 100%;
+  }
 
-    /* Online Games - End */
-}   
+  .banner-image img {
+    width: 100%;
+  }
+
+  .banner-content {
+    margin-left: 0px;
+  }
+
+  .banner-title-1 {
+    text-align: center;
+  }
+  .banner-title-2 {
+    text-align: center;
+  }
+  .banner-description {
+    margin-left: 10px;
+  }
+  /* Banner - End */
+  /* Online Games - Start */
+  .online-games-card-container {
+    border: 1px solid darkcyan;
+    /* display: flex; */
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 40px;
+  }
+
+  /* Online Games - End */
+
+  /* Play Instantly Section - Start */
+  .play-container{
+    flex-direction: column;
+  }
+
+  .play-content-container{
+    width: 100%;
+  }
+
+  .play-content{
+    margin:0;
+  }
+  .play-title{
+    text-align: center;
+  }
+  
+  .play-description{
+    text-align: center;
+   
+  }
+
+  .play-image{
+    width: 100%;
+  }
+
+  .play-image-2{
+    top: 50%;
+    right: 50% ;
+  }
+
+  /* Play Instantly Section - End */
+}
