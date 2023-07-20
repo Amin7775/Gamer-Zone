@@ -32,6 +32,17 @@ body {
   font-weight: 600;
   padding: 21px 40px;
   border: 0;
+  /* cursor: pointer; */
+}
+
+.primary-btn:hover{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn-2 {
+  background: #4ec5f7;
+  margin-left: 10px;
 }
 /* Shared Styles - End*/
 
@@ -58,6 +69,10 @@ body {
   width: 86px;
   height: 40px;
 }
+
+.nav-logo-img:hover{
+  cursor: pointer;
+}
 .nav-menu {
   display: flex;
   align-items: center;
@@ -70,6 +85,11 @@ body {
   font-size: 2.8rem;
   font-weight: 700;
 }
+
+.nav-title-text:hover{
+  cursor: pointer;
+}
+
 .nav-menu-list {
   display: flex;
   align-items: center;
@@ -79,6 +99,11 @@ body {
 
 .nav-menu-list > li {
   list-style: none;
+}
+
+.nav-menu-list > li:hover{
+  font-size: 1.1em;
+  cursor: pointer;
 }
 
 .nav-menu-font-style {
@@ -138,9 +163,14 @@ body {
 }
 
 .banner-description {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 20px;
   font-weight: 500;
 }
+
+
 /* Banner - End */
 
 /* Online Games - Start */
@@ -180,6 +210,9 @@ body {
   width: 90%;
   margin: 10px auto;
   display: block;
+}
+.online-games-card img:hover {
+  cursor: pointer;
 }
 
 .online-games-card p {
@@ -329,6 +362,11 @@ body {
   line-height: normal;
   list-style: none;
 }
+
+.footer-menu-style:hover{
+  cursor: pointer;
+  font-size: 1.1rem;
+}
 .footer-icon {
   max-width: 430px;
   display: flex;
@@ -342,6 +380,8 @@ body {
 .footer-icon > .fa-brands {
   font-size: 2.5rem;
 }
+
+
 
 .footer-text {
   max-width: 690px;
@@ -358,6 +398,11 @@ body {
   font-weight: 500;
 }
 
+.footer-text-style:hover{
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
 .footer-copyright {
   margin: 0 auto;
   display: flex;
@@ -369,3 +414,17 @@ body {
   padding-bottom: 100px;
 }
 /* Footer - End */
+
+/* image hover */
+
+/* .online-games-card > img{
+  z-index: 0;
+} */
+
+.online-games-card > img:hover {
+  border: 5px solid #f948b2;
+  border-radius: 16px;
+  /* z-index: 1; */
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.1s all ease-in;
+}
