@@ -3,10 +3,53 @@
     .navbar{
         flex-direction: column;
         padding: 0;
+        box-shadow: none;
     }
-
+    .nav-title,.nav-menu{
+        width:80%;
+    }
+    .nav-title{
+        text-align: center;
+        justify-content: center;
+    }
+    .nav-menu{
+        margin-top: -5px;
+        margin-bottom: 15px;
+    }
     .nav-menu-list{
         flex-direction: column;
-        margin-bottom: 25px;
     }
-}
+    .nav-menu-follow{
+        margin: 0 auto;
+    }
+
+    .banner-container{
+        flex-direction: column;
+    }
+
+    .banner-content-container{
+        width: 100%;
+    }
+
+    .banner-image{
+        width: 100%;
+    }
+    
+    .banner-image img{
+        width: 100%;
+    }
+
+    .banner-content{
+        margin-left: 0px;
+      }
+
+      .banner-title-1{
+        text-align: center;
+      }
+      .banner-title-2{
+        text-align: center;
+      }
+      .banner-description{ 
+        margin-left: 10px;
+        }
+}   
