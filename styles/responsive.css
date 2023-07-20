@@ -67,34 +67,59 @@
   /* Online Games - End */
 
   /* Play Instantly Section - Start */
-  .play-container{
+  .play-container {
     flex-direction: column;
   }
 
-  .play-content-container{
+  .play-content-container {
     width: 100%;
   }
 
-  .play-content{
-    margin:0;
+  .play-content {
+    margin: 0;
   }
-  .play-title{
+  .play-title {
     text-align: center;
-  }
-  
-  .play-description{
-    text-align: center;
-   
   }
 
-  .play-image{
+  .play-description {
+    text-align: center;
+  }
+
+  .play-image {
     width: 100%;
   }
 
-  .play-image-2{
+  .play-image-2 {
     top: 50%;
-    right: 50% ;
+    right: 50%;
   }
 
   /* Play Instantly Section - End */
+
+  /* Games Section - Start */
+  .game-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  .game {
+    gap: 2px;
+    padding: 0px;
+    padding-left: 2px;
+    margin: 1px;
+  }
+
+  .game img{
+    margin: auto 0;
+    height: 40px;
+    width: 40px;
+  }
+  .game p{
+    word-wrap: break-word;
+  }
+  /* Games Section - End */
 }
