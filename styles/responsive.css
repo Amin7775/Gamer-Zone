@@ -113,13 +113,69 @@
     margin: 1px;
   }
 
-  .game img{
+  .game img {
     margin: auto 0;
     height: 40px;
     width: 40px;
   }
-  .game p{
+  .game p {
     word-wrap: break-word;
   }
   /* Games Section - End */
+  /* Footer - Start */
+  .footer {
+    margin: 0;
+  }
+  .footer-menu {
+    max-width: 350px;
+    margin-top: -40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: center;
+    padding: 25px;
+    margin-bottom: 0;
+  }
+  .footer-menu-style {
+    margin-bottom: 30px;
+  }
+
+  .footer-icon {
+    max-width: 250px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  .footer-text {
+    max-width: 353px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  .footer-text-style {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .fts1 {
+    text-align: left;
+  }
+
+  .fts2 {
+    text-align: right;
+  }
+
+  .footer-copyright {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .footer-copyright-responsive::after {
+    content: "\a";
+    white-space: pre;
+  }
+  /* Footer - End */
 }
