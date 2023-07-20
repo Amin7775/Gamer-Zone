@@ -1,5 +1,6 @@
 /* Mobile Device */
 @media screen and (max-width:425px) {
+    /* Nav - Start */
     .navbar{
         flex-direction: column;
         padding: 0;
@@ -22,7 +23,8 @@
     .nav-menu-follow{
         margin: 0 auto;
     }
-
+    /* Nav - End */
+    /* Banner - Start */
     .banner-container{
         flex-direction: column;
     }
@@ -38,18 +40,28 @@
     .banner-image img{
         width: 100%;
     }
-
+    
     .banner-content{
         margin-left: 0px;
+    }
+    
+    .banner-title-1{
+        text-align: center;
+    }
+    .banner-title-2{
+        text-align: center;
+    }
+    .banner-description{ 
+        margin-left: 10px;
+    }
+    /* Banner - End */
+    /* Online Games - Start */
+    .online-games-card-container {
+        border: 1px solid darkcyan;
+        /* display: flex; */
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
       }
 
-      .banner-title-1{
-        text-align: center;
-      }
-      .banner-title-2{
-        text-align: center;
-      }
-      .banner-description{ 
-        margin-left: 10px;
-        }
+    /* Online Games - End */
 }   
